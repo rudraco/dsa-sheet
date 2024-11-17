@@ -1,0 +1,51 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font for the application */
+body {
+    font-family: Arial, sans-serif; /* You can change this to your preferred font */
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Style for the main container */
+#root {
+    max-width: 1200px; /* Limit the width of the app */
+    margin: 0 auto; /* Center the app */
+    padding: 20px; /* Add some padding */
+}
+
+/* Add some basic styles for headings */
+h1, h2, h3 {
+    margin-bottom: 10px; /* Space below headings */
+}
+
+/* Style for buttons */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add some styles for links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
